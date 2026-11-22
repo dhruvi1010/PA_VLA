@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# Large files (go to Hugging Face Hub or S3, never Git)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.npz
+*.h5
+checkpoints/
+datasets/
+outputs/
+wandb/
+*.mp4
+
+# Secrets
+.env
+*.pem
+
+# macOS
+.DS_Store
